@@ -9,7 +9,7 @@ def get_days_from_today(date: str) -> int:
         return target_days
 
     except ValueError:
-        print("Невірний формат дати, формат повинен бути у форматі 'РРРР-ММ-ДД'")
+        print("Невірний формат дати. Спробуйте за цим шаблоном - 'РРРР-ММ-ДД'")
 
 
-print(get_days_from_today("2025-07-19"))
+print(get_days_from_today("2025-07-"))
